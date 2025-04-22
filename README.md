@@ -69,4 +69,7 @@ This is a Python-based GUI card game that demonstrates key Operating System conc
 ---
 
 ### c) Code Snippets:
+![Process Creation](images/processes.png)
+
+
 
