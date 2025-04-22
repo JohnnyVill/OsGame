@@ -23,12 +23,11 @@ There is no real level progression, but with our “Best of 3/5” system implem
 ### d) Win/Loss Conditions: 
 Win/Loss conditions are applied every round, and with a win counter for the “Best of 3/5” system implemented we can have an overall winner for the 5 rounds once the timer has ended.
 
-## 5. OS Concepts Card Game
+## 5. OS Concepts Used
 
 This is a Python-based GUI card game that demonstrates key Operating System concepts such as multithreading, multiprocessing, inter-process communication (IPC), synchronization, deadlock detection, and time-based program termination.
 
-Built using:
-
+### a) Concepts Used:
 - `tkinter` for GUI
 - `multiprocessing` for player processes
 - `threading` for deadlock detection and concurrent game control
@@ -45,7 +44,7 @@ Built using:
 
 ---
 
-## Features
+### b) Corresponding game mechanics:
 
 - **Multiprocessing**: Each player is a separate process that receives messages and sends back a card.
 - **Pipes (IPC)**: The main process communicates with player processes using `Pipe`.
@@ -70,12 +69,5 @@ Built using:
 
 ---
 
-## How to Run
+### c) Code Snippets:
 
-1. Make sure you have **Python 3.8+** installed.
-
-2. Run the game:
-
-   ```bash
-   python osGame.py
-   ```
