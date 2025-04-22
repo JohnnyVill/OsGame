@@ -46,12 +46,23 @@ This is a Python-based GUI card game that demonstrates key Operating System conc
 ### b) Corresponding game mechanics:
 
 - **Multiprocessing**: Each player is a separate process that receives messages and sends back a card.
+  ![Process Creation](images/processes.png)
+  
 - **Pipes (IPC)**: The main process communicates with player processes using `Pipe`.
+  ![Pipes](images/pipes.png)
+  
 - **Multithreading**: The GUI stays responsive by spawning a thread for each round.
+  ![Threading](images/thread.png)
+  
 - **Synchronization**: Uses `Lock` and `Semaphore` to ensure only one round runs at a time.
-- **Deadlock Detection**: A background thread checks for potential deadlocks and attempts recovery.
-- **Timer**: Automatically ends the game after 5 minutes using `threading.Timer`.
+  ![Synchronization](images/synchronization.png)
 
+- **Deadlock Detection**: A background thread checks for potential deadlocks and attempts recovery.
+  ![Deadlock Detection](images/deadlock.png)
+  
+- **Timer**: Automatically ends the game after 5 minutes using `threading.Timer`.
+  ![Timer](images/timer.png)
+  
 ---
 
 ## OS Concepts Demonstrated
@@ -68,18 +79,17 @@ This is a Python-based GUI card game that demonstrates key Operating System conc
 
 ---
 
-### c) Code Snippets:
-![Process Creation](images/processes.png)
 
-![Threading](images/thread.png)
 
-![Synchronization](images/synchronization.png)
 
-![Pipes](images/pipes.png)
 
-![Deadlock Detection](images/deadlock.png)
 
-![Timer](images/timer.png)
+
+
+
+
+
+
 
 
 
