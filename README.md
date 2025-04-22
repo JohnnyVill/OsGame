@@ -1,6 +1,6 @@
-Countdown Clash Design README 
+# Countdown Clash Design README 
 
-Demo Video: https://youtu.be/W1iNa6m0rv0
+## 1.Demo Video: https://youtu.be/W1iNa6m0rv0
 
 Setup:
 To run the game ensure you have python installed, then run this command: python3 osGame.py . This will then compile and run the game. 
