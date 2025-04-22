@@ -10,8 +10,8 @@ To run the game ensure you have python installed, then run this command: python3
 Countdown Clash
 ### b) Game Summary: 
 Feeling left out from your friends during poker and blackjack night but still want to be able to join the fun with a deck of cards? Well this is the game just for you. Countdown Clash is a simple and easy card game to play where each player draws a card and the player whose card with the highest number wins. It’s that simple and quick to learn with no complicated rules. Join the fun with the simple click of a button!
-### c) 
-Core Gameplay Loop: Each player is dealt a card, and the player with the higher card wins the round. The countdown refers to the game’s timer—once it reaches zero, the game ends. We're planning to enhance the experience by adding a "best 3 out of 5" system or a score tracker for each player, so you can easily see who's winning overall.
+### c) Core Gameplay Loop: 
+Each player is dealt a card, and the player with the higher card wins the round. The countdown refers to the game’s timer—once it reaches zero, the game ends. We're planning to enhance the experience by adding a "best 3 out of 5" system or a score tracker for each player, so you can easily see who's winning overall.
 
 ## 4. Gameplay Mechanics
 ### a) Controls: 
@@ -24,7 +24,6 @@ There is no real level progression, but with our “Best of 3/5” system implem
 Win/Loss conditions are applied every round, and with a win counter for the “Best of 3/5” system implemented we can have an overall winner for the 5 rounds once the timer has ended.
 
 ## 5. OS Concepts Used
-
 This is a Python-based GUI card game that demonstrates key Operating System concepts such as multithreading, multiprocessing, inter-process communication (IPC), synchronization, deadlock detection, and time-based program termination.
 
 ### a) Concepts Used:
