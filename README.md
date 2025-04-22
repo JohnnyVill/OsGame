@@ -71,5 +71,15 @@ This is a Python-based GUI card game that demonstrates key Operating System conc
 ### c) Code Snippets:
 ![Process Creation](images/processes.png)
 
+![Threading](images/thread.png)
+
+![Synchronization](images/synchronization.png)
+
+![Pipes](images/pipes.png)
+
+![Deadlock Detection](images/deadlock.png)
+
+![Timer](images/timer.png)
+
 
 
