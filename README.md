@@ -5,11 +5,10 @@
 ## 2. Setup:
 To run the game ensure you have python installed, then run this command: python3 osGame.py . This will then compile and run the game. 
 
-
 ## 3. Game Overview
-Game Title: Countdown Clash
-Game Summary: Feeling left out from your friends during poker and blackjack night but still want to be able to join the fun with a deck of cards? Well this is the game just for you. Countdown Clash is a simple and easy card game to play where each player draws a card and the player whose card with the highest number wins. It’s that simple and quick to learn with no complicated rules. Join the fun with the simple click of a button!
-Core Gameplay Loop: Each player is dealt a card, and the player with the higher card wins the round. The countdown refers to the game’s timer—once it reaches zero, the game ends. We're planning to enhance the experience by adding a "best 3 out of 5" system or a score tracker for each player, so you can easily see who's winning overall.
+### a) Game Title: Countdown Clash
+### b) Game Summary: Feeling left out from your friends during poker and blackjack night but still want to be able to join the fun with a deck of cards? Well this is the game just for you. Countdown Clash is a simple and easy card game to play where each player draws a card and the player whose card with the highest number wins. It’s that simple and quick to learn with no complicated rules. Join the fun with the simple click of a button!
+### c) Core Gameplay Loop: Each player is dealt a card, and the player with the higher card wins the round. The countdown refers to the game’s timer—once it reaches zero, the game ends. We're planning to enhance the experience by adding a "best 3 out of 5" system or a score tracker for each player, so you can easily see who's winning overall.
 
 ## 4. Gameplay Mechanics
 Controls: Our game design has a basic control where users only need to press the draw button to begin the round. This button can be pressed again after each round when the winner with the greater card is decided. Input scheme for this game includes a mouse or touchpad.
