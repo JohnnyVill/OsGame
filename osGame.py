@@ -36,19 +36,32 @@ class CardGameGUI:
         self.timer = threading.Timer(300, self.end_game)
         self.timer.start()
 
-        self.label = tk.Label(root, text="Card Game Begins!", font=("Arial", 18))
+          # Load a background image
+        try:
+            bg_image = Image.open("cards/CardsBackground.jpeg")  # <-- you need to add a background image
+            bg_image = bg_image.resize((450, 450))
+            self.bg_photo = ImageTk.PhotoImage(bg_image)
+
+            self.background_label = tk.Label(root, image=self.bg_photo)
+            self.background_label.place(x=0, y=0, relwidth=1, relheight=1)
+        except Exception as e:
+            print(f"Background image could not be loaded: {e}")
+            self.root.config(bg="darkgreen")  # fallback color like poker table
+
+
+        self.label = tk.Label(root, text="Card Game Begins!", font=("Arial", 20, "bold"), bg="#006400", fg="white")
         self.label.pack(pady=10)
 
-        self.start_button = tk.Button(root, text="Start Round", command=self.start_round)
+        self.start_button = tk.Button(root, text="Start Round", command=self.start_round, font=("Arial", 14), bg="#FFD700", fg="black")
         self.start_button.pack(pady=5)
 
-        self.canvas = tk.Canvas(root, width=400, height=150)
+        self.canvas = tk.Canvas(root, width=400, height=180, bg="#228B22", highlightthickness=0)
         self.canvas.pack()
 
-        self.status = tk.Label(root, text="", font=("Arial", 14))
+        self.status = tk.Label(root, text="", font=("Arial", 14), bg="#006400", fg="white")
         self.status.pack()
 
-        self.score_label = tk.Label(root, text="Player 1 Wins: 0 | Player 2 Wins: 0", font=("Arial", 12))
+        self.score_label = tk.Label(root, text="Player 1 Wins: 0 | Player 2 Wins: 0", font=("Arial", 12), bg="#006400", fg="white")
         self.score_label.pack(pady=5)
 
         # Load all card images into a dictionary
