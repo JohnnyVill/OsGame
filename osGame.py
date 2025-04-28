@@ -33,7 +33,7 @@ class CardGameGUI:
         self.player1_wins = 0
         self.player2_wins = 0
 
-        self.timer = threading.Timer(300, self.end_game)
+        self.timer = threading.Timer(30, self.end_game)
         self.timer.start()
 
           # Load a background image
