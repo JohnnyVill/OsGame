@@ -1,15 +1,16 @@
 # Countdown Clash Design README 
 
-## 1.Demo Video: https://youtu.be/W1iNa6m0rv0
+## 1.Demo Video: https://www.youtube.com/shorts/3td38iR7eJ8
 
 ## 2. Setup
-To run the game ensure you have python installed, then run this command: python3 osGame.py . This will then compile and run the game. 
+To run the game ensure you have python installed, then run this command: *python3 osGame.py*. This will then compile and run the game. 
 
 ## 3. Game Overview
 ### a) Game Title: 
 Countdown Clash
 ### b) Game Summary: 
-Feeling left out from your friends during poker and blackjack night but still want to be able to join the fun with a deck of cards? Well this is the game just for you. Countdown Clash is a simple and easy card game to play where each player draws a card and the player whose card with the highest number wins. It’s that simple and quick to learn with no complicated rules. Join the fun with the simple click of a button!
+Feeling left out from your friends during poker and blackjack night but still want to be able to join the fun with a deck of cards? Well this is the game just for you. Countdown Clash is a fast-paced, easy-to-learn card game designed for everyone—whether you're a seasoned player or just looking for a quick and casual round of fun. Each player draws a card, and the one with the highest number takes the win. No bluffing, no suits, no strategies—just pure luck and excitement. With a simple card inspired GUI and lightning-fast rounds, it’s the perfect game to jump into at any time. Whether you're playing with friends or just killing time, Countdown Clash brings the thrill of classic card games without the complexity. Click to play and see if luck is on your side!
+
 ### c) Core Gameplay Loop: 
 Each player is dealt a card, and the player with the higher card wins the round. The countdown refers to the game’s timer—once it reaches zero, the game ends. We're planning to enhance the experience by adding a "best 3 out of 5" system or a score tracker for each player, so you can easily see who's winning overall.
 
