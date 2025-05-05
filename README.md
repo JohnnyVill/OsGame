@@ -2,7 +2,7 @@
 
 ## 1.Demo Video: https://www.youtube.com/shorts/3td38iR7eJ8
 
-## 2. Setup
+## 2. How to run game
 To run the game ensure you have python installed, then run this command: *python3 osGame.py*. This will then compile and run the game. 
 
 ## 3. Game Overview
